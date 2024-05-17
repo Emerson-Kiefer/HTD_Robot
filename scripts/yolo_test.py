@@ -14,7 +14,7 @@ CAMERA_NUM = 0
 
 
 # model
-model = YOLO("yolo-Weights/yolov8n.pt")  # v8x
+model = YOLO("yolo-Weights/yolov5nu.pt")  # v8n = v8nano
 classNames = ["Person"]
 
 # reid
@@ -32,8 +32,8 @@ class HumanDetector:
         self.rate = rospy.Rate(rate)
         self.threshold = threshold
 
-        self.cap_width = 640
-        self.cap_height = 480
+        self.cap_width = 400 #640
+        self.cap_height = 400 #480
         self.cap = cv2.VideoCapture(CAMERA_NUM)
         self.cap.set(3, self.cap_width)
         self.cap.set(4, self.cap_height)

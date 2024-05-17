@@ -1,0 +1,7 @@
+base_global_planner: "global_planner/GlobalPlanner"
+GlobalPlanner:
+  use_dijkstra: false
+  use_grid_path: false
+  allow_unknown: false
+  planner_window_x: 5.0
+  planner_window_y: 5.0

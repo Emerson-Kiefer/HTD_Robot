@@ -1,0 +1,10 @@
+use_map_topic: true
+first_map_only: false
+min_particles: 500
+max_particles: 2000
+laser_min_range: -1.0
+laser_max_range: 10.0
+laser_max_beams: 60
+odom_frame_id: "odom"
+base_frame_id: "base_link"
+global_frame_id: "map"

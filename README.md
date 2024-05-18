@@ -39,6 +39,8 @@ source devel/setup.bash
 roslaunch cs603_particle_filter triton_gmapping.launch
 ```
 
+## Performing initial goal room navigation
+To activate perform this in simulation, perform the Particle Filter, Move Base/ACML, and Room selection commands. To perform this on a physical robot, don't perform the particle filter commands, since that is for setting up gazebo/rviz.   
 
 ## Particle Filter
 
@@ -50,7 +52,7 @@ roslaunch cs603_particle_filter particle_filter.launch
 ```
 
 ## Move Base/AMCL
-To activate and AMCL nodes, run the following:
+To activate move_base and AMCL nodes, run the following:
 ```bash
 cd ~/catkin_ws
 source devel/setup.bash

@@ -42,7 +42,7 @@ roslaunch cs603_particle_filter triton_gmapping.launch
 
 ## Particle Filter
 
-To run the particle filter simulation environment: 
+To run: 
 ```bash
 cd ~/catkin_ws
 source devel/setup.bash

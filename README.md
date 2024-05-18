@@ -48,3 +48,19 @@ cd ~/catkin_ws
 source devel/setup.bash
 roslaunch cs603_particle_filter particle_filter.launch
 ```
+
+## Move Base/AMCL
+To activate and AMCL nodes, run the following:
+```bash
+cd ~/catkin_ws
+source devel/setup.bash
+roslaunch HTD_Robot move_base.launch
+```
+
+## Room Selection
+To select the goal room to traverse to, run the following:
+```bash
+cd ~/catkin_ws
+source devel/setup.bash
+rosrun HTD_Robot travel_to_room.py
+```
